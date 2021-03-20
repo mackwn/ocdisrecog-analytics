@@ -12,26 +12,26 @@ Project to explore ocular disease recognition with kaggle dataset of classified 
 </ul>
 
 <h2>Contents</h2>
-Notebooks/
------ 1-data-exploration.ipynb: data structure, summary statistics, average images
------ 2-simple-model.ipynb: Logistic regression and small MLP neutral net using multi-class classification using just the primary diagnostic
------ 3-cnn-keras.ipynb: Try a few CNN architectures using keras. Multi-label classification using the pre-encoded diagnostic array that includes some images with multiple diseases 
+Notebooks/<br>
+----- 1-data-exploration.ipynb: data structure, summary statistics, average images<br>
+----- 2-simple-model.ipynb: Logistic regression and small MLP neutral net using multi-class classification using just the primary diagnostic<br>
+----- 3-cnn-keras.ipynb: Try a few CNN architectures using keras. Multi-label classification using the pre-encoded diagnostic array that includes some images with multiple diseases <br>
 
-src/
----- __init__.py
----- make_data.py: Download data from kaggle and unzip in data folder (not implemented)
----- make_features.py: Helper functions for loading data, resizing images, plotting images, etc
+src/<br>
+---- __init__.py<br>
+---- make_data.py: Download data from kaggle and unzip in data folder (not implemented)<br>
+---- make_features.py: Helper functions for loading data, resizing images, plotting images, etc<br>
 
-README.md
+README.md<br>
 
-tests.py: test functions in make features
-
+tests.py: test functions in make features<br>
+<br>
 <h2>Requirements</h2>
-Python 3.8.8
-pandas
-numpy
-matplotlib
-seaborn
-sklearn
-keras
+Python 3.8.8<br>
+pandas<br>
+numpy<br>
+matplotlib<br>
+seaborn<br>
+sklearn<br>
+keras<br>
 pytest
